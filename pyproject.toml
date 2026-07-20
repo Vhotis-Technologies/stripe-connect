@@ -35,7 +35,7 @@ dev = [
 ]
 
 [project.urls]
-Repository = "https://github.com/example/stripe-connect"
+Repository = "https://github.com/Vhotis-Technologies/stripe-connect"
 
 [tool.hatch.build.targets.wheel]
 packages = ["python/stripe_connect"]
