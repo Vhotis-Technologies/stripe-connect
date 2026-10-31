@@ -16,11 +16,11 @@ Pin apps to a **git tag**, not `main`:
 
 ```toml
 # pyproject.toml / requirements
-stripe-connect = { git = "ssh://git@github.com/YOUR_ORG/stripe-connect.git", tag = "v0.1.0" }
+stripe-connect = { git = "ssh://git@github.com/Vhotis-Technologies/stripe-connect.git", tag = "v0.1.0" }
 ```
 
 ```bash
-pip install "stripe-connect @ git+ssh://git@github.com/YOUR_ORG/stripe-connect.git@v0.1.0"
+pip install "stripe-connect @ git+ssh://git@github.com/Vhotis-Technologies/stripe-connect.git@v0.1.0"
 ```
 
 Local development:
